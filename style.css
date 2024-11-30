@@ -118,3 +118,34 @@ ul li button{
     opacity: 0.6; 
     cursor: auto;
 }
+
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .input-container {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .task-input, .add-task-button {
+    width: 100%;
+  }
+
+  ul li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul li button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
